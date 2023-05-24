@@ -5,7 +5,7 @@ require('dotenv').config()
 
 const app = express()
 
-const booksControl = require('./controllers/Book')
+const booksControl = require('./controllers/book')
 
 app.use(express.json())
 
